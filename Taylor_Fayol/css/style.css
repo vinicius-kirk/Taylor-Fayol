@@ -1,0 +1,333 @@
+body,h1,h2,h3,p,ul{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(221, 221, 221);
+}
+
+
+.menu{
+     background-color:#252525;
+     padding: 20px 0;
+}
+
+.menu-container{
+              max-width: 960px;
+              margin: 0 auto;
+}
+
+.menu-container h1{
+            float: left;
+            font-size: 1.45em;
+            list-style: none;
+            line-height: 1.5em;
+            color: whitesmoke;
+            
+}
+
+.menu-container::after, .menu-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu-nav{
+         float:right;
+         margin-right: 10px;
+         
+}
+
+.menu-nav li{
+            display: inline-block;
+    
+}
+
+.menu-nav a {
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.125em;
+}
+
+.intro{
+    background: url('../img/backgound_main.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 220px 0;
+    text-align: center;
+    color: white;
+
+
+}
+
+.intro h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    background: black;
+    opacity: 0.8;
+    color: whitesmoke;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+
+}
+
+.intro h1::after{
+    content: ' ';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    margin: 10px auto;
+
+}
+
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+
+}
+
+.taylor{
+    max-width: 960px;
+    margin: 30px auto;
+    
+}
+
+.taylor-image p{
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 1.5em;
+    color:rgb(53, 53, 53);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.taylor-image{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+
+.taylor-image img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.admin-cientifica{
+    max-width: 100%;
+    background:rgb(100, 99, 99);
+}
+
+.admin-cientifica h2{
+    display: block;
+    color:rgb(228, 228, 228);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px 0;
+}
+
+.admin-cientifica p{
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 1.5em;
+    color:rgb(228, 228, 228);
+    text-align: center;
+    padding:10px 10px 10px 10px;;
+   
+}
+
+.taylor-video{
+    margin-top: 30px;
+    max-width: 960px;
+    padding: 50px;
+    background:url('../img/taylor_background.jpg')no-repeat center center;
+    background-size: cover;
+ 
+   
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.img-taylor{
+    background-color: rgb(75, 75, 75);
+    background-size: cover;
+    padding: 60px 0;
+    margin: 30px 0;
+
+}
+.img-itens{
+    width: 300px;
+    float: left;
+    margin: 0 10px;
+    max-width: 100%;
+
+}
+
+.img-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.img-container::after, .img-container::before{
+    content: '';
+    display: table;
+    clear: both;
+    }
+
+.img-itens img{
+    width: 300px;
+    height: 240px;
+    margin: 0 10px 20px 0px;
+   
+
+    
+}
+
+.img-itens h2{
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+
+.img-itens p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    display:block ;
+    text-align: center;
+    font-style: italic;
+    color: cornsilk;
+
+}
+
+
+.fayol{
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.container-dividido{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background:rgb(100, 99, 99);
+}
+
+.container-dividido::after, .container-dividido::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.div-fayol_text{
+    float: left;
+    width: 440px;
+    max-width: 100%;
+    padding: 0 10px;
+    background:rgb(100, 99, 99);
+    
+}
+
+
+.container-dividido h3{
+    text-align: center;
+    line-height: 1.125em;
+    font-size: 1.25em;
+    margin: 10px 0;
+    color:rgb(228, 228, 228);
+    
+}
+.container-dividido p{
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 1.5em;
+    color:rgb(228, 228, 228);
+    text-align: center;
+    padding:10px 10px 10px 10px;;
+}
+
+.criticas{
+    margin: 30px 0;
+    max-width: 100%;
+
+}
+
+.fayol-video{
+    margin-top: 30px;
+    max-width: 960px;
+    padding: 50px;
+    background:url('../img/backgound_fayol.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+.admin-cientifica a{
+    width: 180px;
+    border: 3px solid #252525;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    margin: 20px auto 0 auto;
+    display: block;
+    padding: 10px 0;
+    text-decoration:none;
+	text-shadow:0px 1px 0px #080808;
+    border:3px solid #c2c2c2;
+    border-radius:28px;
+    cursor:pointer;
+
+	
+}
+.myButton:hover {
+	background-color:#313436;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.poze img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+   
+
+}
+
+.poze{
+    margin: 30px auto;
+    display: block;
+}
+
+.footer{
+    background:rgb(0, 0, 0);
+    background-size: cover;
+    max-width: 100%;
+}
+
+.final p{
+    text-align: center;
+    color:whitesmoke;
+    padding: 10px 10px;
+}
+.final h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(53, 53, 53);
+
+}
